@@ -127,13 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Bankomat.h" />
-    <ClInclude Include="Client.h" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Doors.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Wheels.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bankomat.cpp" />
-    <ClCompile Include="Client.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Doors.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Wheels.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
